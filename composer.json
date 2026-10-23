@@ -1,5 +1,5 @@
 {
-    "name": "willvincent/feeds",
+    "name": "the-3labs-team/feeds",
     "description": "Laravel Service Provider for the SimplePie library",
     "license": "MIT",
     "authors": [
@@ -10,13 +10,22 @@
     ],
     "require": {
         "php": ">=5.4.0 || ^7.2 || ^8.0",
-        "illuminate/support": "~5.0 || ^6.0 || ^7.0 || ^8.0|^9.0|^10.0 || ^11.0 || ^12.0",
+        "illuminate/support": "~5.0 || ^6.0 || ^7.0 || ^8.0|^9.0|^10.0 || ^11.0 || ^12.0 || ^13.0",
         "simplepie/simplepie": "^1.5",
         "ext-curl": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0|^13.0"
     },
     "autoload": {
         "psr-4": {
             "willvincent\\Feeds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "willvincent\\Feeds\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -28,5 +37,8 @@
                 "Feeds": "willvincent\\Feeds\\Facades\\FeedsFacade"
             }
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }

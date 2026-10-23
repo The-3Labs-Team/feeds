@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Feed di prova</title>
+        <link>https://example.com</link>
+        <description>Feed usato dai test del pacchetto</description>
+        <item>
+            <title>Primo articolo</title>
+            <link>https://example.com/primo-articolo</link>
+            <dc:creator>Mario Rossi</dc:creator>
+            <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
+            <description><![CDATA[<p style="color: red">Testo del primo articolo</p><script>alert('feed')</script>]]></description>
+        </item>
+        <item>
+            <title>Secondo articolo</title>
+            <link>https://example.com/secondo-articolo</link>
+            <dc:creator>Giulia Bianchi</dc:creator>
+            <pubDate>Wed, 21 Oct 2026 10:00:00 +0000</pubDate>
+            <description><![CDATA[<p>Testo del secondo articolo</p>]]></description>
+        </item>
+        <item>
+            <title>Terzo articolo</title>
+            <link>https://example.com/terzo-articolo</link>
+            <dc:creator>Luca Verdi</dc:creator>
+            <pubDate>Tue, 20 Oct 2026 10:00:00 +0000</pubDate>
+            <description><![CDATA[<p>Testo del terzo articolo</p>]]></description>
+        </item>
+    </channel>
+</rss>
